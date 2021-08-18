@@ -33,7 +33,7 @@ export const FeedContainer = styled.section`
 export const Post = styled.article`
     width: 80%;
     min-height: 100px;
-    padding: 10px;
+    padding: 20px;
 
     box-shadow: 0px 10px 10px rgba(0,0,0,0.25);
 
@@ -56,6 +56,54 @@ export const Post = styled.article`
             > p {
                 font-size: 14px;
                 color: var(--textGray);
+            }
+        }
+    }
+
+    > main {
+        margin-top: 10px;
+        > div {
+            > h1 {
+                font-size: 22px;
+            }
+
+            > p{
+                margin-top: 5px;
+                padding: 10px 0px 10px 12px;
+                
+                font-size: 18px;
+                border-left: 2px solid var(--primary);
+            }
+        }
+
+        > img {
+            width: calc(100% + 40px);
+            margin-left: -20px;
+            margin-top: 10px;
+        }
+        
+        > section{
+            margin-top: 10px;
+            display: flex;
+            gap: 5px;
+
+            > p {
+                padding: 5px;
+                box-shadow: 0px 0px 10px rgba(0,0,0,0.25);
+            }
+        }
+    }
+
+    > footer{
+
+        > h2{
+            margin-top: 10px;
+            font-size: 18px;
+            transition: 0.2s;
+            cursor: pointer;
+
+            :hover{
+                color: var(--primary);
             }
         }
     }
