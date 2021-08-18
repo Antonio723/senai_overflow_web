@@ -1,9 +1,10 @@
-import {createGlobalStyle} from "styled-components";
+import { createGlobalStyle } from "styled-components";
 
 export const GlobalStyles = createGlobalStyle`
+
     :root{
-        --primary:#fe0000;
-        --text-primary:#000000;
+        --primary: #fe0000;
+        --textPrimary: #000000;
     }
 
     *{
@@ -15,7 +16,8 @@ export const GlobalStyles = createGlobalStyle`
     }
 
     body{
-        font-family: sans-serif, Arial, Helvetica;
-        color: var(--text-primary);
+        font-family: sans-serif, Arial;
+        color: var(--textPrimary);
     }
+
 `;

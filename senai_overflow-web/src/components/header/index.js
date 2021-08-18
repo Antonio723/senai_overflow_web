@@ -1,14 +1,17 @@
-import { Container, IconSingOut } from "./style";
-import imgLogo from "../../assents/logo.jpg";
+import { Container, IconSignOut } from "./styles";
 
-function Header(){
-    return(
+import imgLogo from "../../assets/logo.jpg";
+
+
+function Header() {
+
+    return (
         <Container>
-                <img src={imgLogo}></img>
-                <input type="text" placeholder="Pesuisar ..."></input>
-                <div>
-                    <IconSingOut/>
-                </div>
+            <img src={imgLogo} />
+            <input type="text" placeholder="Pesquisar" />
+            <div>
+                <IconSignOut />
+            </div>
         </Container>
     );
 }
