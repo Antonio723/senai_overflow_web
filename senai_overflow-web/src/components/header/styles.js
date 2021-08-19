@@ -6,6 +6,7 @@ export const Container = styled.header`
     height: 60px;
     position: fixed;
     top: 0;
+    padding: 0px 30px 0px 10px;
 
     background-color: var(--primary);
 
@@ -19,12 +20,13 @@ export const Container = styled.header`
     }
 
     > input {
-        width: 754px;
-        height: 50px;
+        width: 696px;
+        height: 43px;
 
+        border-radius: 15px;
         border: none;
         font-size: 22px;
-        padding-left: 10px;
+        padding-left: 30px;
     }
 `;
 

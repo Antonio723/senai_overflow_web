@@ -8,7 +8,7 @@ function Header() {
     return (
         <Container>
             <img src={imgLogo} />
-            <input type="text" placeholder="Pesquisar" />
+            <input type="text" placeholder="Pesquisar ..." />
             <div>
                 <IconSignOut />
             </div>

@@ -1,17 +1,17 @@
 import Header from "../../components/Header";
 import Coments from "../../components/Coments";
 import { FeedContainer, GistIcon, Main, Post } from "./styles";
+import Profile from "../../components/profile/";
 
 function Home() {
     return (
         <>
             <Header />
             <Main>
-                <nav>
+                <Profile>
                     Profile
-                </nav>
+                </Profile>
                 <FeedContainer>
-                    <PostCard />
                     <PostCard />
                     <PostCard />
                     <PostCard />
