@@ -16,21 +16,6 @@ function Home() {
                     <PostCard />
                     <PostCard />
                     <PostCard />
-                    <PostCard />
-                    <PostCard />
-                    <PostCard />
-                    <PostCard />
-                    <PostCard />
-                    <PostCard />
-                    <PostCard />
-                    <PostCard />
-                    <PostCard />
-                    <PostCard />
-                    <PostCard />
-                    <PostCard />
-                    <PostCard />
-                    <PostCard />
-                    <PostCard />
                 </FeedContainer>
                 <aside>
                     Actions
@@ -45,7 +30,7 @@ function Home() {
 function PostCard() {
     return (
         <Post>
-            <header>
+            <Header>
                 <img src="https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_1280.png" />
                 <div>
                     <strong>
@@ -56,7 +41,7 @@ function PostCard() {
                     </p>
                 </div>
                 <GistIcon />
-            </header>
+            </Header>
             <main>
                 <div>
                     <h1>Título</h1>
