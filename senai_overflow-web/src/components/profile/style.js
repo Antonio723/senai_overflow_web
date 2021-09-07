@@ -13,10 +13,11 @@ export const Container = styled.nav`
 
     >img{
         width: 190px;
-        height: 190px;
+        height: 190px;u
 
         border-radius: 50%;
     }
+    
     >header{
         width: 100%;
         display: flex;
